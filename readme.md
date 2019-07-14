@@ -1,3 +1,3 @@
-# Boilerplate Meteor Project
+# Notes
 
-This includes a basic react and auth setup.
+Ben Franklin and Isaac Newton were rigorous in their note taking. You can be too. 
