@@ -9,3 +9,4 @@ heroku addons:create mongolab:sandbox
 heroku config:set ROOT_URL=""
 5. Set Note version in package.json
 6. Commit and deply via (git push)
+git push heroku master

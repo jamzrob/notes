@@ -32,7 +32,7 @@ export default createContainer(() => {
 
   return {
     notes: Notes.find({}, {
-      sort:{
+      sort: {
         updatedAt: -1
       }
     }).fetch().map((note) => {

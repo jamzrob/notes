@@ -2,14 +2,16 @@ import React from 'react';
 import expect from 'expect';
 import { mount } from 'enzyme';
 import { Meteor } from 'meteor/meteor';
-import { notes } from '../fixtures/fixtures'
+
 import { NoteListHeader } from './NoteListHeader';
+import { notes } from '../fixtures/fixtures';
 
 if (Meteor.isClient) {
   describe('NoteListHeader', function () {
-    let meteorCall, Session;
+    let meteorCall;
+    let Session;
 
-    beforeEach(function() {
+    beforeEach(function () {
       meteorCall = expect.createSpy();
       Session = {
         set: expect.createSpy()
@@ -26,14 +28,14 @@ if (Meteor.isClient) {
       expect(Session.set).toHaveBeenCalledWith('selectedNoteId', notes[0]._id);
     });
 
-    it('should not set session for failed insert', function() {
-        const wrapper = mount(<NoteListHeader meteorCall={meteorCall} Session={Session}/>);
+    it('should not set session for failed insert', function () {
+      const wrapper = mount(<NoteListHeader meteorCall={meteorCall} Session={Session}/>);
 
-        wrapper.find('button').simulate('click');
-        meteorCall.calls[0].arguments[1]({}, undefined);
+      wrapper.find('button').simulate('click');
+      meteorCall.calls[0].arguments[1]({}, undefined);
 
-        expect(meteorCall.calls[0].arguments[0]).toBe('notes.insert');
-        expect(Session.set).toNotHaveBeenCalled();
+      expect(meteorCall.calls[0].arguments[0]).toBe('notes.insert');
+      expect(Session.set).toNotHaveBeenCalled();
     });
 
   });
