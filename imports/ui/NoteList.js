@@ -1,7 +1,6 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { createContainer } from 'meteor/react-meteor-data';
-import PropTypes from 'prop-types';
 import { Session } from 'meteor/session';
 
 import { Notes } from '../api/notes';
@@ -13,14 +12,17 @@ export const NoteList = (props) => {
   return (
     <div>
       <NoteListHeader/>
-        {props.notes.map((note)=><NoteListItem note={note} key={note._id}/>)}
-      { props.notes.length === 0 ? <NoteListEmptyItem/> : null }
+      { props.notes.length === 0 ? <NoteListEmptyItem/> : undefined }
+      {props.notes.map((note) => {
+        return <NoteListItem key={note._id} note={note}/>;
+      })}
+      NoteList { props.notes.length }
     </div>
   );
 };
 
 NoteList.propTypes = {
-  notes: PropTypes.array.isRequired
+  notes: React.PropTypes.array.isRequired
 };
 
 export default createContainer(() => {
@@ -28,11 +30,14 @@ export default createContainer(() => {
 
   Meteor.subscribe('notes');
 
+  // Take notes add selected property to object
+  // Set to true if match, false if not
+
   return {
-    notes: Notes.find().fetch().map((note)=>{
+    notes: Notes.find().fetch().map((note) => {
       return {
-          ...note,
-          selected: note._id === selectedNoteId
+        ...note,
+        selected: note._id === selectedNoteId
       };
     })
   };

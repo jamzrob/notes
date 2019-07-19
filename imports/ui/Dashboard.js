@@ -10,7 +10,7 @@ export default () => {
       <PrivateHeader title="Dashboard"/>
       <div className="page-content">
         <NoteList/>
-          <Editor/>
+        <Editor/>
       </div>
     </div>
   );
