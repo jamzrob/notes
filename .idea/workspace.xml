@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65648d4a-abc3-4872-8f01-ba4420fee380" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imports/ui/Editor.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.meteor/.finished-upgraders" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/.finished-upgraders" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.meteor/packages" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.meteor/release" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/release" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.meteor/versions" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/versions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/fixtures/fixtures.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/fixtures/fixtures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/routes/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/Editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/Editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/ui/NoteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/NoteList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteList.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/ui/NoteListHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteListHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/ui/NoteListHeader.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteListHeader.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/NoteListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/NoteListItem.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteListItem.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/PrivateHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/PrivateHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/Signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,7 +58,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="30" />
+          <entry key="js" value="33" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
         </counts>
@@ -86,19 +66,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="30" />
+          <entry key="JavaScript" value="33" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="7333" />
+          <entry key="js" value="8080" />
           <entry key="md" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="7333" />
+          <entry key="JavaScript" value="8080" />
           <entry key="Markdown" value="91" />
         </counts>
       </usages-collector>
@@ -139,11 +119,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/ui/Editor.test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="478">
               <caret line="86" column="48" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -181,18 +194,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/Login.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -214,14 +215,11 @@
         <option value="$PROJECT_DIR$/imports/ui/PrivateHeader.js" />
         <option value="$PROJECT_DIR$/imports/ui/Signup.js" />
         <option value="$PROJECT_DIR$/imports/ui/NotFound.js" />
-        <option value="$PROJECT_DIR$/imports/ui/NoteListHeader.test.js" />
-        <option value="$PROJECT_DIR$/imports/ui/NoteListHeader.js" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js" />
         <option value="$PROJECT_DIR$/imports/ui/NoteList.test.js" />
         <option value="$PROJECT_DIR$/imports/ui/NoteListItem.test.js" />
         <option value="$PROJECT_DIR$/imports/ui/NoteListItem.js" />
-        <option value="$PROJECT_DIR$/imports/ui/NoteList.js" />
         <option value="$PROJECT_DIR$/imports/fixtures/fixtures.js" />
         <option value="$PROJECT_DIR$/imports/ui/Dashboard.js" />
         <option value="$PROJECT_DIR$/client/main.js" />
@@ -230,6 +228,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/imports/ui/PrivateHeader.test.js" />
         <option value="$PROJECT_DIR$/imports/ui/Editor.test.js" />
+        <option value="$PROJECT_DIR$/imports/ui/NoteList.js" />
+        <option value="$PROJECT_DIR$/imports/ui/NoteListHeader.js" />
+        <option value="$PROJECT_DIR$/imports/ui/NoteListHeader.test.js" />
       </list>
     </option>
   </component>
@@ -335,18 +336,18 @@
       <workItem from="1563241144425" duration="84000" />
       <workItem from="1563410245498" duration="2092000" />
       <workItem from="1563416375862" duration="403000" />
-      <workItem from="1563507298356" duration="3027000" />
+      <workItem from="1563507298356" duration="4175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18030000" />
+    <option name="totallyTimeSpent" value="19178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31030577" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31013432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -430,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/NoteListItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -451,24 +445,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/fixtures/fixtures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -558,6 +538,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="86" column="48" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
