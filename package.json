@@ -18,7 +18,7 @@
     "simpl-schema": "0.0.3"
   },
   "engines": {
-    "node": "11.9.0"
+    "node": "8.11.3"
   },
   "devDependencies": {
     "enzyme": "^2.7.1",
