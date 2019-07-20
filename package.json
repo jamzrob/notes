@@ -2,7 +2,7 @@
   "name": "short-lnk",
   "private": true,
   "scripts": {
-    "start": "meteor npm start",
+    "start": "meteor run",
     "test": "meteor test --driver-package=practicalmeteor:mocha"
   },
   "dependencies": {
