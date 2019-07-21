@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "test": "meteor test --driver-package=practicalmeteor:mocha"
+    "test": "meteor test --driver-package=cultofcoders:mocha"
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",

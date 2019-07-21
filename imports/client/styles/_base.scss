@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -8,8 +9,10 @@ html {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  color: $body-default-color;
+  font-family: $body-default-font-family;
   font-size: $base-font-size;
+  background-color: $body-background-color;
 }
 
 h1 {
@@ -27,12 +30,14 @@ p {
 }
 
 a {
-  color: black;
+  color: $body-default-color;
 }
 
-input[type=text], input[type=email], input[type=password] {
+input[type=text], input[type=email], input[type=password], textarea {
   border: 1px solid $input-border;
+  color: $body-default-color;
   font-size: $base-font-size;
+  font-family: $body-default-font-family;
   margin-bottom: $space;
   padding: $input-spacing;
 }
