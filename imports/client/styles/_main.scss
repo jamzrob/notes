@@ -1,4 +1,5 @@
 @import './variables';
+@import './mixins/_media-query-mixins';
 @import './base';
 @import './components/boxed-view';
 @import './components/button';
@@ -7,3 +8,4 @@
 @import './components/page-content';
 @import './components/checkbox';
 @import './components/item';
+
